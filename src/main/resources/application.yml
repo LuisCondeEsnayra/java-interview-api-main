@@ -1,0 +1,12 @@
+server:
+  port: 9000
+
+logging:
+  level:
+    root: info
+
+management:
+  endpoint:
+    health:
+      show-detail: always
+      show-components: always
